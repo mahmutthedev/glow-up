@@ -4,7 +4,8 @@
       "Bash(npm ls:*)",
       "Bash(npm audit:*)",
       "Bash(node:*)",
-      "Bash(npm:*)"
+      "Bash(npm:*)",
+      "Bash(npx prisma:*)"
     ],
     "deny": [],
     "ask": []
