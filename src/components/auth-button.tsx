@@ -20,7 +20,7 @@ export default function AuthButton() {
               className="w-8 h-8 rounded-full"
             />
           )}
-          <span>Welcome, {session.user?.name}</span>
+          <span className="text-white">Welcome, {session.user?.name}</span>
         </div>
         <button
           onClick={() => signOut()}

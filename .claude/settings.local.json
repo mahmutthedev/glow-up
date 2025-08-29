@@ -5,7 +5,12 @@
       "Bash(npm audit:*)",
       "Bash(node:*)",
       "Bash(npm:*)",
-      "Bash(npx prisma:*)"
+      "Bash(npx prisma:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "WebSearch",
+      "WebFetch(domain:openrouter.ai)",
+      "Bash(rm:*)",
+      "Bash(PRISMA_USER_CONSENT_FOR_DANGEROUS_AI_ACTION=\"Yes lets do whatever is necessary.\" npx prisma migrate reset --force)"
     ],
     "deny": [],
     "ask": []

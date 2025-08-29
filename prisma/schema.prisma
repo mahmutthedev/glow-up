@@ -51,7 +51,7 @@ model User {
   sessions      Session[]
   
   // App-specific fields
-  credits       Int       @default(5) // Free credits for photo generation
+  credits       Int       @default(3) // Free credits for photo generation
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
   
