@@ -10,7 +10,10 @@
       "WebSearch",
       "WebFetch(domain:openrouter.ai)",
       "Bash(rm:*)",
-      "Bash(PRISMA_USER_CONSENT_FOR_DANGEROUS_AI_ACTION=\"Yes lets do whatever is necessary.\" npx prisma migrate reset --force)"
+      "Bash(PRISMA_USER_CONSENT_FOR_DANGEROUS_AI_ACTION=\"Yes lets do whatever is necessary.\" npx prisma migrate reset --force)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
